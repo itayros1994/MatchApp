@@ -1,0 +1,60 @@
+{
+  "user": [
+    {
+      "_id": "u101",
+      "fullname": "Tair Bitan",
+      "imgUrl": "./img/tair.jpg",
+      "isAdmin": false,
+      "username": "tairB",
+      "password": "1234",
+      "favCoulor": "orange",
+      "createdEvents": ["60bf3aef835bcd1f0bdd8c66"]
+    },
+    {
+      "_id": "u102",
+      "fullname": "Idan Levi",
+      "imgUrl": "./imgs/idan.jpg",
+      "isAdmin": true,
+      "username": "IdanL",
+      "password": "1234",
+      "favCoulor": "green",
+      "createdEvents": [
+        "60bf3aef835bcd1f0bdd8c65",
+        "60bf3aef835bcd1f0bdd8c6a",
+        "60bf3aef835bcd1f0bdd8c6b",
+        "60bf3aef835bcd1f0bdd8c6d",
+        "60bf3aef835bcd1f0bdd8c6e",
+        "60bf3aef835bcd1f0bdd8c6f",
+        "60bf3aef835bcd1f0bdd8c70"
+      ]
+    },
+    {
+      "_id": "u103",
+      "fullname": "Itay Rosental",
+      "imgUrl": "./imgs/itay.jpg",
+      "isAdmin": true,
+      "username": "ItayR",
+      "password": "1234",
+      "favCoulor": "red",
+      "createdEvents": [
+        "60bf3aef835bcd1f0bdd8c63",
+        "60bf3aef835bcd1f0bdd8c67",
+        "60bf3aef835bcd1f0bdd8c68"
+      ]
+    },
+    {
+      "_id": "u104",
+      "fullname": "Gil Tarablus",
+      "imgUrl": "./imgs/gil.jpg",
+      "isAdmin": true,
+      "username": "GilT",
+      "password": "1234",
+      "favCoulor": "lightblue",
+      "createdEvents": [
+        "60bf3aef835bcd1f0bdd8c64",
+        "60bf3aef835bcd1f0bdd8c69",
+        "60bf3aef835bcd1f0bdd8c6c"
+      ]
+    }
+  ]
+}

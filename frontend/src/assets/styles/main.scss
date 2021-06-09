@@ -1,0 +1,157 @@
+// Setup
+@import 'setup/variables';
+@import 'setup/functions';
+@import 'setup/mixins';
+@import 'setup/typography';
+
+// Basics
+@import 'basics/helpers';
+@import 'basics/layout';
+@import 'basics/base';
+@import 'basics/links';
+@import 'basics/forms';
+
+// Components
+@import 'cmps/Header';
+@import 'cmps/ReviewList';
+@import 'cmps/Home';
+@import 'cmps/eventList';
+@import 'cmps/eventPreview';
+// @import 'cmps/eventDetails';
+@import 'cmps/eventDetailsNew';
+@import 'cmps/eventPosts';
+@import 'cmps/EventCreate.scss';
+@import 'cmps/UserProfile.scss';
+@import 'cmps/footer';
+@import 'cmps/loginSignup.scss';
+@import 'cmps/participantList.scss';
+@import 'cmps/eventApp.scss';
+@import 'cmps/MyEvents';
+
+body {
+  font-family: secondfontregular;
+  // background-image: linear-gradient(
+  //   -215deg
+  //   , #d2dac8, #1996c5);
+  color: #262626;
+}
+.carousel-container {
+  background-image: linear-gradient(-215deg, #84d816, #18b1eb);
+  opacity: 0.75;
+}
+
+.green-point {
+  color: rgb(104, 226, 104);
+  font-size: 30spx;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-page {
+  flex: 1;
+}
+
+.side-bar-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.small-margin {
+  margin: 5px;
+}
+
+/* filter */
+
+.date-filter {
+  border-radius: 50px;
+  font-size: 20px;
+  height: 33px;
+}
+
+.select-filter {
+  border-radius: 50px;
+  font-size: 20px;
+  width: 171px;
+  height: 33px;
+}
+
+// .select-filter:hover {
+
+//   background-color: blue;
+// }
+
+/* Loader! */
+
+body {
+  padding: 0;
+  margin: 0;
+}
+.main-loader {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.main-fader {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  .loader {
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    svg {
+      height: 300px;
+      display: block;
+      margin: 0 auto;
+      width: 300px;
+      path {
+        animation-duration: 1s;
+        animation-name: pulse;
+        animation-iteration-count: infinite;
+        color: #26a380;
+
+        &.path-7 {
+          animation-delay: -1s;
+        }
+        &.path-6 {
+          animation-delay: -0.875s;
+        }
+        &.path-5 {
+          animation-delay: -0.75s;
+        }
+        &.path-4 {
+          animation-delay: -0.625s;
+        }
+        &.path-3 {
+          animation-delay: -0.5s;
+        }
+        &.path-2 {
+          animation-delay: -0.375s;
+        }
+        &.path-1 {
+          animation-delay: -0.25s;
+        }
+        &.path-0 {
+          animation-delay: -0.125s;
+        }
+      }
+    }
+  }
+}
+@keyframes pulse {
+  0% {
+    opacity: 0.1;
+  }
+  30% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}

@@ -1,0 +1,565 @@
+{
+  "eventi": [
+    {
+      "_id": "ev101",
+      "title": "Beach Volleyball",
+      "type": "Volleyball",
+      "typeIcon": "🏐",
+      "desc": "Proident duis ex ullamco nostrud deserunt sunt in. Occaecat Lorem aliqua ex aliqua excepteur proident nostrud adipisicing id ullamco. Aliqua sunt exercitation tempor deserunt culpa sint ex sunt anim.",
+      "createdAt": "28/05/21",
+      "createdBy": {
+        "_id": "u101",
+        "fullname": "Shit Ben David",
+        "imgUrl": "https://image.shutterstock.com/image-photo/portrait-smiling-red-haired-millennial-260nw-1194497251.jpg",
+        "rating": 3.5
+      },
+      "date": "2021-06-25",
+      "time": "16:30",
+      "location": "Gordon, Tel-Aviv",
+      "imgUrls": ["primary.jpg", "secondary1.jpg", "secondary2.jpg"],
+      "capacity": 14,
+      "price": 20,
+      "members": [
+        {
+          "_id": "u102",
+          "fullname": "Idan Levi",
+          "imgUrl": "http://some-img",
+          "favColour": "green"
+        },
+        {
+          "_id": "u103",
+          "fullname": "Itay",
+          "imgUrl": "http://some-img",
+          "favColour": "red"
+        }
+      ],
+      "posts": [
+        {
+          "id": "r3243",
+          "createdAt": "10/06/21",
+          "author": {
+            "_id": "u103",
+            "fullname": "Itay",
+            "imgUrl": "http://some-img"
+          },
+          "txt": "good match last time! Shit really brought the house down!"
+        }
+      ]
+    },
+    {
+      "_id": "ev102",
+      "title": "Football 5v5",
+      "type": "Football",
+      "typeIcon": "⚽",
+
+      "desc": "Proident duis ex ullamco nostrud deserunt sunt in. Occaecat Lorem aliqua ex aliqua excepteur proident nostrud adipisicing id ullamco. Aliqua sunt exercitation tempor deserunt culpa sint ex sunt anim.",
+      "createdAt": "28/05/21",
+      "createdBy": {
+        "_id": "u102",
+        "fullname": "Gil Tarablus",
+        "imgUrl": "https://image.shutterstock.com/image-photo/portrait-smiling-red-haired-millennial-260nw-1194497251.jpg",
+        "rating": 4
+      },
+      "date": "2021-06-23",
+      "time": "19:50",
+
+      "location": "Sportek, Tel-Aviv",
+      "imgUrls": ["primary.jpg", "secondary1.jpg", "secondary2.jpg"],
+      "capacity": 18,
+      "price": 10,
+      "members": [
+        {
+          "_id": "u104",
+          "fullname": "Idan",
+          "imgUrl": "http://some-img"
+        },
+        {
+          "_id": "u103",
+          "fullname": "Itay",
+          "imgUrl": "http://some-img"
+        }
+      ],
+      "posts": [
+        {
+          "id": "r3243",
+          "createdAt": "27/05/21",
+          "author": {
+            "_id": "u104",
+            "fullname": "Idan",
+            "imgUrl": "http://some-img"
+          },
+          "txt": "Was ok. 7/10"
+        }
+      ]
+    },
+    {
+      "_id": "ev103",
+      "title": "Basketball 3v3",
+      "type": "Basketball",
+      "typeIcon": "🏀",
+      "desc": "Proident duis ex ullamco nostrud deserunt sunt in. Occaecat Lorem aliqua ex aliqua excepteur proident nostrud adipisicing id ullamco. Aliqua sunt exercitation tempor deserunt culpa sint ex sunt anim.",
+      "createdAt": "26/05/21",
+      "createdBy": {
+        "_id": "u102",
+        "fullname": "Yaron Biton",
+        "imgUrl": "https://image.shutterstock.com/image-photo/portrait-smiling-red-haired-millennial-260nw-1194497251.jpg",
+        "rating": 4.7
+      },
+      "date": "2021-06-28",
+      "time": "20:30",
+
+      "location": "Park Hayarkon, Tel-Aviv",
+      "imgUrls": ["primary.jpg", "secondary1.jpg", "secondary2.jpg"],
+      "capacity": 10,
+      "price": "Free",
+      "members": [
+        {
+          "_id": "u104",
+          "fullname": "Idan",
+          "imgUrl": "http://some-img"
+        },
+        {
+          "_id": "u103",
+          "fullname": "Itay",
+          "imgUrl": "http://some-img"
+        }
+      ],
+      "posts": [
+        {
+          "id": "r3243",
+          "createdAt": 12122134434,
+          "author": {
+            "_id": "u104",
+            "fullname": "Idan",
+            "imgUrl": "http://some-img"
+          },
+          "txt": "Itay needs to learn how to throw."
+        }
+      ]
+    },
+    {
+      "_id": "ev104",
+      "title": "Beach Volleyball Tournament",
+      "type": "Volleyball",
+      "typeIcon": "🏐",
+      "desc": "Proident duis ex ullamco nostrud deserunt sunt in. Occaecat Lorem aliqua ex aliqua excepteur proident nostrud adipisicing id ullamco. Aliqua sunt exercitation tempor deserunt culpa sint ex sunt anim.",
+      "createdAt": "28/05/21",
+      "createdBy": {
+        "_id": "u101",
+        "fullname": "Puki Ben David",
+        "imgUrl": "https://image.shutterstock.com/image-photo/portrait-smiling-red-haired-millennial-260nw-1194497251.jpg",
+        "rating": 4.0
+      },
+      "date": "2021-06-25",
+      "time": "16:30",
+      "location": "Gordon, Tel-Aviv",
+      "imgUrls": ["primary.jpg", "secondary1.jpg", "secondary2.jpg"],
+      "capacity": 14,
+      "price": 20,
+      "members": [
+        {
+          "_id": "u104",
+          "fullname": "Idan",
+          "imgUrl": "http://some-img"
+        },
+        {
+          "_id": "u103",
+          "fullname": "Itay",
+          "imgUrl": "http://some-img"
+        }
+      ],
+      "posts": [
+        {
+          "id": "r3243",
+          "createdAt": "10/06/21",
+          "author": {
+            "_id": "u103",
+            "fullname": "Itay",
+            "imgUrl": "http://some-img"
+          },
+          "txt": "good match last time! Shit really brought the house down!"
+        }
+      ]
+    },
+    {
+      "_id": "ev105",
+      "title": "Neutral Goal",
+      "type": "Football",
+      "typeIcon": "⚽",
+      "desc": "Proident duis ex ullamco nostrud deserunt sunt in. Occaecat Lorem aliqua ex aliqua excepteur proident nostrud adipisicing id ullamco. Aliqua sunt exercitation tempor deserunt culpa sint ex sunt anim.",
+      "createdAt": "28/05/21",
+      "createdBy": {
+        "_id": "u102",
+        "fullname": "Nemo Bemo",
+        "imgUrl": "https://image.shutterstock.com/image-photo/portrait-smiling-red-haired-millennial-260nw-1194497251.jpg",
+        "rating": 4.9
+      },
+      "date": "2021-06-23",
+      "time": "19:50",
+
+      "location": "Sportek, Tel-Aviv",
+      "imgUrls": ["primary.jpg", "secondary1.jpg", "secondary2.jpg"],
+      "capacity": 18,
+      "price": 10,
+      "members": [
+        {
+          "_id": "u104",
+          "fullname": "Idan",
+          "imgUrl": "http://some-img"
+        },
+        {
+          "_id": "u103",
+          "fullname": "Itay",
+          "imgUrl": "http://some-img"
+        }
+      ],
+      "posts": [
+        {
+          "id": "r3243",
+          "createdAt": "27/05/21",
+          "author": {
+            "_id": "u104",
+            "fullname": "Idan",
+            "imgUrl": "http://some-img"
+          },
+          "txt": "Was ok. 7/10"
+        }
+      ]
+    },
+    {
+      "_id": "ev106",
+      "title": "Horse",
+      "type": "Basketball",
+      "typeIcon": "🏀",
+      "desc": "Proident duis ex ullamco nostrud deserunt sunt in. Occaecat Lorem aliqua ex aliqua excepteur proident nostrud adipisicing id ullamco. Aliqua sunt exercitation tempor deserunt culpa sint ex sunt anim.",
+      "createdAt": "26/05/21",
+      "createdBy": {
+        "_id": "u102",
+        "fullname": "Yaron Biton",
+        "imgUrl": "https://image.shutterstock.com/image-photo/portrait-smiling-red-haired-millennial-260nw-1194497251.jpg"
+      },
+      "date": "2021-06-28",
+      "time": "20:30",
+
+      "location": "Park Hayarkon, Tel-Aviv",
+      "imgUrls": ["primary.jpg", "secondary1.jpg", "secondary2.jpg"],
+      "capacity": 10,
+      "price": "Free",
+      "members": [
+        {
+          "_id": "u104",
+          "fullname": "Idan",
+          "imgUrl": "http://some-img"
+        },
+        {
+          "_id": "u103",
+          "fullname": "Itay",
+          "imgUrl": "http://some-img"
+        }
+      ],
+      "posts": [
+        {
+          "id": "r3243",
+          "author": {
+            "_id": "u104",
+            "fullname": "Gil Tarablus",
+            "imgUrl": "http://some-img"
+          },
+          "txt": "Itay needs to learn how to throw.",
+          "createdAt": 12122134434
+        }
+      ]
+    },
+    {
+      "_id": "ev107",
+      "title": "Gil's Football Game",
+      "type": "football",
+      "date": "2021-06-05",
+      "time": "20:00",
+      "capacity": "15",
+      "desc": "We're playing 4v4 plus goalies, looking for players who enjoy the game and play for fun.\nA few rules:\n1. Goalies up to half line, can score.\n2. 8 Minute matches, 2 minute extra time if game is tied.\n3. Final attack ends after no more than 1 minute, 2 out or 1 goalkick.\n\nBring water!",
+      "location": "Sportek, Tel Aviv",
+      "latlng": {
+        "lat": 32.0983724,
+        "lng": 34.7854915
+      },
+      "createdBy": {
+        "_id": "u104",
+        "fullname": "Gil Tarablus",
+        "imgUrl": "/img/img2.jpg"
+      },
+      "members": [
+        {
+          "_id": "u104",
+          "fullname": "Gil Tarablus",
+          "imgUrl": "/img/img2.jpg"
+        }
+      ],
+      "posts": [
+        {
+          "postId": "tJqxG",
+          "author": {
+            "_id": "u103",
+            "fullname": "Itay Rosental",
+            "imgUrl": "/img/img2.jpg"
+          },
+          "txt": "fdgdfgfdg",
+          "createdAt": 1622720975266
+        }
+      ]
+    },
+    {
+      "_id": "ev108",
+      "title": "Idan's Basketball Game",
+      "type": "basketball",
+      "date": "2022-07-05",
+      "time": "20:00",
+      "capacity": "20",
+      "desc": "We're playing 5X5 full court. \n players level: Professional. \nA few rules:\n1. winning team keeps playing.\n2. 10 Minutes game stop only on last 2 minutes, 2 minute extra time if game is tied.\n\nBring water!",
+      "location": "Sportek Darom, Tel Aviv",
+      "latlng": {
+        "lat": 32.048270,
+        "lng": 34.787647
+      },
+      "createdBy": {
+        "_id": "u102",
+        "fullname": "Idan Levi",
+        "imgUrl": "/img/img2.jpg"
+      },
+      "members": [
+        {
+          "_id": "u102",
+          "fullname": "Idan Levi",
+          "imgUrl": "/img/img2.jpg"
+        },
+        {
+          "_id": "u104",
+          "fullname": "Gil Tarablus",
+          "imgUrl": "/img/img2.jpg"
+        },
+        {
+          "_id": "u103",
+          "fullname": "Itay Rosental",
+          "imgUrl": "/img/img2.jpg"
+        },
+        {
+          "_id": "u101",
+          "fullname": "shuki Ben David",
+          "imgUrl": "/img/img1.jpg"
+        }
+      ],
+      "posts": [
+        {
+          "postId": "tJqxG",
+          "author": {
+            "_id": "u104",
+            "fullname": "Gil Tarablus",
+            "imgUrl": "/img/img2.jpg"
+          },
+          "txt": "its July dont forget to bring towels",
+          "createdAt": 1622720975266
+          
+        }
+      ]
+    },
+    {
+      "_id": "ev107",
+      "title": "Gil's Football Game",
+      "type": "football",
+      "typeIcon": "⚽",
+      "date": "2021-06-05",
+      "time": "20:00",
+      "capacity": "15",
+      "desc": "We're playing 4v4 plus goalies, looking for players who enjoy the game and play for fun.\nA few rules:\n1. Goalies up to half line, can score.\n2. 8 Minute matches, 2 minute extra time if game is tied.\n3. Final attack ends after no more than 1 minute, 2 out or 1 goalkick.\n\nBring water!",
+      "location": "Sportek, Tel Aviv",
+      "latlng": {
+        "lat": 32.0983724,
+        "lng": 34.7854915
+      },
+      "createdBy": {
+        "_id": "u104",
+        "fullname": "Gil Tarablus",
+        "imgUrl": "/img/img2.jpg",
+        "isAdmin": true,
+        "username": "GilT",
+        "password": "1234",
+        "favColor": "lightblue"
+      },
+      "members": [
+        {
+          "_id": "u104",
+          "fullname": "Gil Tarablus",
+          "imgUrl": "/img/img2.jpg",
+          "isAdmin": true,
+          "username": "GilT",
+          "password": "1234",
+          "favColor": "lightblue"
+        }
+      ],
+      "posts": [
+        {
+          "txt": "fdgdfgfdg",
+          "author": {
+            "fullname": "Gil Tarablus",
+            "imgUrl": "/img/img2.jpg"
+          },
+          "createdAt": 1622720975266,
+          "id": "tJqxG"
+        }
+      ]
+    },
+    {
+      "_id": "ev107",
+      "title": "Gil's Football Game",
+      "type": "football",
+      "date": "2021-06-05",
+      "time": "20:00",
+      "capacity": "15",
+      "desc": "We're playing 4v4 plus goalies, looking for players who enjoy the game and play for fun.\nA few rules:\n1. Goalies up to half line, can score.\n2. 8 Minute matches, 2 minute extra time if game is tied.\n3. Final attack ends after no more than 1 minute, 2 out or 1 goalkick.\n\nBring water!",
+      "location": "Sportek, Tel Aviv",
+      "latlng": {
+        "lat": 32.0983724,
+        "lng": 34.7854915
+      },
+      "createdBy": {
+        "_id": "u104",
+        "fullname": "Gil Tarablus",
+        "imgUrl": "/img/img2.jpg",
+        "isAdmin": true,
+        "username": "GilT",
+        "password": "1234",
+        "favColor": "lightblue"
+      },
+      "members": [
+        {
+          "_id": "u104",
+          "fullname": "Gil Tarablus",
+          "imgUrl": "/img/img2.jpg",
+          "isAdmin": true,
+          "username": "GilT",
+          "password": "1234",
+          "favColor": "lightblue"
+        }
+      ],
+      "posts": [
+        {
+          "txt": "fdgdfgfdg",
+          "author": {
+            "fullname": "Gil Tarablus",
+            "imgUrl": "/img/img2.jpg"
+          },
+          "createdAt": 1622720975266,
+          "id": "tJqxG"
+        }
+      ]
+    },
+    {
+      "_id": "ev108",
+      "title": "Idan's Basketball Game",
+      "type": "basketball",
+      "date": "2022-07-05",
+      "time": "20:00",
+      "capacity": "20",
+      "desc": "We're playing 5X5 full court. \n players level: Professional. \nA few rules:\n1. winning team keeps playing.\n2. 10 Minutes game stop only on last 2 minutes, 2 minute extra time if game is tied.\n\nBring water!",
+      "location": "Sportek Darom, Tel Aviv",
+      "latlng": {
+        "lat": 32.048270,
+        "lng": 34.787647
+      },
+      "createdBy": {
+        "_id": "u102",
+        "fullname": "Idan Levi",
+        "imgUrl": "/img/img2.jpg"
+      },
+      "members": [
+        {
+          "_id": "u102",
+          "fullname": "Idan Levi",
+          "imgUrl": "/img/img2.jpg"
+        },
+        {
+          "_id": "u104",
+          "fullname": "Gil Tarablus",
+          "imgUrl": "/img/img2.jpg"
+        },
+        {
+          "_id": "u103",
+          "fullname": "Itay Rosental",
+          "imgUrl": "/img/img2.jpg"
+        },
+        {
+          "_id": "u101",
+          "fullname": "shuki Ben David",
+          "imgUrl": "/img/img1.jpg"
+        }
+      ],
+      "posts": [
+        {
+          "postId": "tJqxG",
+          "author": {
+            "_id": "u104",
+            "fullname": "Gil Tarablus",
+            "imgUrl": "/img/img2.jpg"
+          },
+          "txt": "its July dont forget to bring towels",
+          "createdAt": 1622720975266
+          
+        }
+      ]
+    },
+    {
+      "_id": "ev108",
+      "title": "Idan's Basketball Game",
+      "type": "basketball",
+      "date": "2022-07-05",
+      "time": "20:00",
+      "capacity": "20",
+      "desc": "We're playing 5X5 full court. \n players level: Professional. \nA few rules:\n1. winning team keeps playing.\n2. 10 Minutes game stop only on last 2 minutes, 2 minute extra time if game is tied.\n\nBring water!",
+      "location": "Sportek Darom, Tel Aviv",
+      "latlng": {
+        "lat": 32.048270,
+        "lng": 34.787647
+      },
+      "createdBy": {
+        "_id": "u102",
+        "fullname": "Idan Levi",
+        "imgUrl": "/img/img2.jpg"
+      },
+      "members": [
+        {
+          "_id": "u102",
+          "fullname": "Idan Levi",
+          "imgUrl": "/img/img2.jpg"
+        },
+        {
+          "_id": "u104",
+          "fullname": "Gil Tarablus",
+          "imgUrl": "/img/img2.jpg"
+        },
+        {
+          "_id": "u103",
+          "fullname": "Itay Rosental",
+          "imgUrl": "/img/img2.jpg"
+        },
+        {
+          "_id": "u101",
+          "fullname": "shuki Ben David",
+          "imgUrl": "/img/img1.jpg"
+        }
+      ],
+      "posts": [
+        {
+          "postId": "tJqxG",
+          "author": {
+            "_id": "u104",
+            "fullname": "Gil Tarablus",
+            "imgUrl": "/img/img2.jpg"
+          },
+          "txt": "its July dont forget to bring towels",
+          "createdAt": 1622720975266
+          
+        }
+      ]
+    }
+  ]
+}

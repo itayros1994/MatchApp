@@ -1,0 +1,154 @@
+.create-main-container {
+  // background-color: red;
+  // background-image: url('../../imgs/running-hero.jpg');
+  background-image: linear-gradient(-215deg, #d2dac8, #1996c5);
+  filter: saturate(70%);
+  height: 89.1vh;
+  background-repeat: no-repeat;
+}
+
+.create-form-main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  margin: auto;
+}
+
+.create-form {
+  background-color: #fff;
+  border: 1px solid #c2c2c2;
+  border-radius: 15px;
+  padding-bottom: 20px;
+  width: 700px;
+  height: 600px;
+  padding-top: 8px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px,
+    rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px,
+    rgb(0 0 0 / 9%) 0px -3px 5px;
+  align-items: center;
+  font-size: 30px;
+}
+.creat-container-right {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 20px;
+}
+.creat-container-left {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.margin-top {
+  margin-top: 40px;
+}
+
+.upload-img-btn {
+  background-color: #65bae2;
+  background-color: rgb(29, 202, 29);
+}
+.upload-img-btn:hover {
+  transition: 0.3s;
+  // background-color: #4fb4d3;
+  background-color: rgb(29, 202, 29);
+}
+
+.submit-btn {
+  filter: saturate(100%);
+  // background-color: #ff2f7f;
+  background-color: #1996c5;
+}
+.submit-btn:hover {
+  transition: 0.3s;
+}
+
+.create-event-header {
+  color: white;
+  font-size: 30px;
+  margin-top: 90px;
+}
+
+.event-desc {
+  width: 100%;
+}
+
+.creat-btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: 'Add Images';
+  display: inline-block;
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  // text-shadow: 1px 1px #fff;
+  font-weight: 400;
+  background-color: rgb(72, 200, 72);
+  font-size: 10pt;
+  color: white;
+  width: 89%;
+  border-radius: 5px;
+  text-align: center;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+@media screen and (max-width: 780px) {
+  .create-main-container {
+    background-image: linear-gradient(-215deg, #d2dac8, #4cc0fb9e);
+    filter: saturate(70%);
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+  .create-event-header {
+    color: white;
+    font-size: 52px;
+    margin-top: 92px;
+  }
+
+  .submit-btn {
+    filter: saturate(100%);
+    background-color: #1996c5;
+    font-size: 30px;
+  }
+
+  .create-form {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0ex;
+    border-radius: 0px;
+    // background-image: linear-gradient(-215deg, #d2dac8, #4ccbfbba);
+  }
+  .create-form-main {
+    width: 100%;
+    height: 100%;
+  }
+}

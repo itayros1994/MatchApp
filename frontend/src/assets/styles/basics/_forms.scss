@@ -1,0 +1,17 @@
+button {
+  border: 0;
+  background-color: $clr1;
+  color: whitesmoke;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+button:hover {
+  cursor: pointer;
+}
+
+form > * {
+  display: block;
+  width: 200px;
+  margin: 10px 0px;
+}

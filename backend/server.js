@@ -66,3 +66,7 @@ http.listen(port, () => {
 });
 
 console.log('I am Here!, am I?');
+
+
+
+// for development    // set NODE_ENV=development&&nodemon server.js

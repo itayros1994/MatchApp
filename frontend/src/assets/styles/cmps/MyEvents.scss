@@ -1,0 +1,317 @@
+.user-main-container {
+  width: 100%;
+  min-height: 110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+
+  .user-details-container {
+    display: flex;
+    // height: calc(100% - 25vh);
+  }
+  .my-event-left-container {
+    .user-details {
+      width: 350px;
+      height: 98%;
+      text-align: left;
+      // background-image: linear-gradient(296deg, #d6c42000, #22bbff40);
+      // border: 1px solid grey;
+      opacity: 0.95;
+      // padding: 20px;
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      .profile-details {
+        .profile-rating {
+          // text-align: center;
+          font-weight: bolder;
+          font-size: 24px;
+        }
+        & img {
+          width: 200px;
+          height: 200px;
+          object-fit: cover;
+          border-radius: 50%;
+          border: 2px solid black;
+        }
+      }
+    }
+
+    .profile-details .user-details-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .event-right-container {
+      display: flex;
+      flex-direction: column;
+      height: calc(100% - 70px - 130px);
+    }
+  }
+
+  .light-blue-text {
+    color: $clr3;
+  }
+  .user-events-list {
+    width: 1020px;
+    height: 50%;
+
+    // background-color: white;
+    // border-top: 1px solid grey;
+  }
+  // box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+  //   rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+  //   rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.my-events-title {
+  text-align: left;
+  padding-left: 55px;
+  line-height: 1.2;
+}
+
+.bottom {
+  padding-top: 30px;
+}
+.creat-event-btn {
+  cursor: pointer;
+  font-size: 30px;
+  margin: 15px;
+  border-radius: 15px;
+  width: 290px;
+  background-color: #2bf;
+  // box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+  //   rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.creat-event-btn:hover {
+  transition: 0.4s;
+  background-color: black;
+  color: #2bf;
+}
+
+.event-preview-profile {
+  width: 90%;
+  height: 290px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: start;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 22%);
+  /* margin: 20px; */
+  transition: 0.3s cubic-bezier(0.03, 0.98, 0.52, 0.99);
+  &:hover {
+    .event-actions-profile {
+      display: block;
+    }
+  }
+}
+.event-preview-img {
+  max-height: 200px;
+  border-radius: 5px;
+
+  .preview-img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    max-height: 150px;
+    object-fit: cover;
+    filter: contrast(1.2);
+    // height: 25vh;
+  }
+}
+.preview-link-profile {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  height: 90%;
+  & .counter {
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2bf;
+    justify-content: flex-end;
+  }
+
+  & p {
+    margin: 0;
+  }
+}
+.preview-details {
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-between;
+  text-align: left;
+  // max-height: 40%;
+  padding: 3px;
+  height: 38%;
+  font-size: 16px;
+  h2 {
+    max-height: 40px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .preview-type-rate {
+    display: flex;
+    justify-content: space-between;
+  }
+  .preview-date-time {
+    text-align: left;
+  }
+}
+
+.see-more {
+  z-index: -1;
+  font-size: 10px;
+  transition: 0.5s;
+}
+
+.event-actions-profile {
+  display: none;
+  position: absolute;
+
+  > button:first-child {
+    background-color: red;
+  }
+  // box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+  //   rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+  //   rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.upcoming-container-profile {
+  display: flex;
+  justify-content: center;
+  height: 85%;
+  .InfiniteCarousel {
+    margin-top: 30px;
+    width: 83% !important;
+    // margin: 0 auto !important;
+    height: 81%;
+  }
+  .InfiniteCarouselFrame {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -30px;
+    border-top: #e9e9e9 1px solid;
+    height: 120%;
+  }
+  .InfiniteCarouselSlide {
+    // display: flex !important;
+    align-items: center;
+    justify-content: center;
+    // height: 525px !important;
+  }
+
+  .InfiniteCarouselArrowNext {
+    right: -35px;
+  }
+
+  .InfiniteCarouselArrowPrev {
+    left: -35px;
+  }
+
+  .InfiniteCarouselArrowIcon {
+    border: solid #2bf !important;
+    border-width: 0 5px 5px 0 !important;
+  }
+
+  .InfiniteCarouselDots {
+    // margin-top: 40px;
+    margin: 0;
+    position: relative;
+    > * {
+      outline: none;
+    }
+    // .InfiniteCarouselDotActiveIcon {
+    //   // background-color: $brandingBlue;
+    // }
+  }
+
+  @media screen and (max-width: 700) {
+    .InfiniteCarouselDot {
+      margin: 0 0 !important;
+    }
+    .InfiniteCarouselArrowNext {
+      right: -18px;
+    }
+
+    .InfiniteCarouselArrowPrev {
+      left: -18px;
+    }
+  }
+}
+
+@media screen and (max-width: 780px) {
+}
+
+@media screen and (max-width: 415px) {
+  .to-center {
+    font-size: 25px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .no-padding {
+    padding-left: 0px;
+  }
+  .user-main-container {
+    max-width: 98%;
+    padding-top: 100px;
+    overflow-x: hidden;
+
+    & .user-events-list {
+      width: 380px;
+    }
+    & .user-details-container {
+      flex-direction: column;
+      align-items: center;
+      & > div {
+        margin-bottom: 30px;
+      }
+    }
+
+    & .my-event-left-container {
+      align-items: center;
+      & .user-details .profile-details {
+        text-align: center;
+        // border-bottom: 1px solid;
+        // margin-bottom: 30px;
+
+        & img {
+          width: 100px;
+          height: 100px;
+        }
+        & .user-details-container {
+          flex-direction: column;
+          align-items: center;
+          font-size: 15px;
+        }
+      }
+    }
+
+    .main-header {
+      background-color: white;
+    }
+
+    .InfiniteCarouselFrame {
+      background-color: white;
+    }
+
+    .upcoming-container-profile .InfiniteCarouselSlide {
+      background-color: white;
+    }
+
+    & .event-preview-profile {
+      width: 100%;
+      .event-actions-profile {
+        display: block;
+      }
+    }
+  }
+  .upcoming-container-profile .InfiniteCarousel {
+    width: 75% !important;
+  }
+}

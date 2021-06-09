@@ -1,0 +1,97 @@
+.user-main-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.profile-left-container {
+  //     display: flex;
+  // justify-content: space-evenly;
+  // background-color: rgb(92, 204, 198);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../../imgs/friendsFun.jpg');
+  filter: saturate(75%);
+  background-color: #fff;
+  border: 1px solid #c2c2c2;
+  border-radius: 15px;
+  padding-bottom: 20px;
+  width: 100%;
+  height: 80vh;
+  padding-top: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+// .user-details {
+//   width: 350px;
+//   height: 500px;
+//   border: 1px solid black;
+//   margin: 10px;
+//   border-radius: 15px;
+//   background-color: white;
+//   opacity: 95%;
+//   padding: 30px;
+//   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+//     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+//     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+// }
+
+.user-reviews {
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.profile-right-container {
+  // display: flex;
+  // justify-content: space-evenly;
+  // background-color: rgb(92, 204, 198);
+  background-color: #fff;
+  border: 1px solid #c2c2c2;
+  border-radius: 15px;
+  padding-bottom: 20px;
+  width: 90vh;
+  padding-top: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.user-events {
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.user-recommend {
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
+  margin: 10px;
+}

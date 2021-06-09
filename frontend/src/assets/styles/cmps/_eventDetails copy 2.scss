@@ -1,0 +1,135 @@
+.details-main-container {
+  text-align: start;
+  font-size: 2rem;
+  padding: 20px;
+  margin: 75px 50px;
+  & * {
+    padding: 10px;
+  }
+  & p{
+    font-size: 1.3rem;
+  }
+}
+
+.details-event-img {
+  width: 250px;
+  height: 175px;
+}
+
+.details-posts-container {
+  background-color: rgb(89, 129, 92);
+  display: flex;
+}
+
+.details-fixed-container {
+  // background-color: rgb(73, 100, 221);
+  position: fixed;
+  top: 150px;
+  right: 50px;
+  width: 450px;
+  height: 450px;
+  // border: 1px solid black;
+  border-radius: 7px;
+  & > div {
+    background-color: rgb(112, 150, 233);
+    border-radius: 7px;
+    height: 50%;
+    margin: 15px;
+  }
+}
+
+// .event-details-container {
+//   background-color: grey;
+//   display: grid;
+//   width: 80%;
+//   height: 90vh;
+//   text-align: center;
+//   margin: auto;
+//   border-left: 1px solid black;
+//   border-right: 1px solid black;
+//   grid-template-columns: repeat(12, 8%);
+//   grid-template-rows: repeat(12, 8%);
+// }
+
+// .event-img {
+//   max-width: 600px;
+//   // height: 400px;
+//   // margin: 15px;
+// }
+
+// .details-img-container {
+//   grid-column: 1/8;
+//   grid-row: 1/6;
+//   gap: 10px;
+// }
+
+// .google-maps {
+//   // width: 400px;
+//   // height: 400px;
+//   // margin: 50px;
+//   background-color: #3f8fc5;
+//   grid-column: 8/13;
+//   grid-row: 1/5;
+// }
+
+// .event-details-details {
+//   display: flex;
+//   justify-content: center;
+//   flex-direction: row;
+//   align-items: center;
+//   grid-column: 1/8;
+//   grid-row: 5/13;
+// }
+
+// .event-leader {
+//   font-weight: bold;
+//   text-align: start;
+//   margin-left: 20%;
+//   //   grid-column: 1/8;
+//   //   grid-row: 5/13;
+// }
+
+// .event-details {
+//   background-color: #3f8fc5;
+//   border: 2px solid black;
+//   //   width: 500px;
+//   //   height: 200px;
+//   grid-column: 1/8;
+//   grid-row: 8/13;
+// }
+
+// .participants-container{
+//     grid-column: 8/13;
+//   grid-row: 5/13;
+// }
+
+// .participants {
+//   display: flex;
+//   //   width: 400px;
+//   //   height: 300px;
+//   border: 2px solid black;
+//   margin: 20px;
+// }
+
+// .participant {
+//   border: 1px solid black;
+//   width: 70px;
+//   height: 70px;
+//   border-radius: 50%;
+//   margin: 15px;
+//   font-size: 15px;
+//   text-align: center;
+// }
+
+// .posts-container {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+// }
+
+// .posts {
+//   border: 1px solid black;
+//   width: 80%;
+//   height: 40%;
+//   //   margin: 100px;
+// }

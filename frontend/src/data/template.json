@@ -1,0 +1,291 @@
+[
+  {
+    "_id": "ev108",
+    "title": "Sportek Darom Team",
+    "type": "basketball",
+    "typeIcon": "🏀",
+    "gender": "male",
+    "eventDate": "2022-07-05",
+    "eventTime": "20:00",
+    "capacity": "20",
+    "price": "Free",
+    "desc": "We're playing 5X5 full court. \n players level: Professional. \nA few rules:\n1. winning team keeps playing.\n2. 10 Minutes game stop only on last 2 minutes, 2 minute extra time if game is tied.\n\nBring water!",
+    "location": "Sportek Darom, Tel Aviv",
+    "latlng": {
+      "lat": 32.04827,
+      "lng": 34.787647
+    },
+    "createdAt": "28/05/21",
+    "createdBy": {
+      "_id": "u102",
+      "fullname": "Idan Levi",
+      "imgUrl": "/img/img2.jpg",
+      "rating": 5
+    },
+    "members": [
+      {
+        "_id": "u102",
+        "fullname": "Idan Levi",
+        "imgUrl": "/img/img2.jpg"
+      },
+      {
+        "_id": "u104",
+        "fullname": "Gil Tarablus",
+        "imgUrl": "/img/img2.jpg"
+      },
+      {
+        "_id": "u103",
+        "fullname": "Itay Rosental",
+        "imgUrl": "/img/img2.jpg"
+      },
+      {
+        "_id": "u101",
+        "fullname": "shuki Ben David",
+        "imgUrl": "/img/img1.jpg"
+      }
+    ],
+    "posts": [
+      {
+        "postId": "tJqxG",
+        "author": {
+          "_id": "u104",
+          "fullname": "Gil Tarablus",
+          "imgUrl": "/img/img2.jpg"
+        },
+        "txt": "its July dont forget to bring towels",
+        "createdAt": 1622720975266
+      }
+    ],
+    "imgs": []
+  },
+
+  {
+    "_id": "ev107",
+    "title": "Gil's Football Game",
+    "type": "football",
+    "typeIcon": "⚽",
+    "gender": "all",
+    "eventDate": "2021-06-05",
+    "eventTime": "20:00",
+    "capacity": "15",
+    "price": "Free",
+    "desc": "We're playing 4v4 plus goalies, looking for players who enjoy the game and play for fun.\nA few rules:\n1. Goalies up to half line, can score.\n2. 8 Minute matches, 2 minute extra time if game is tied.\n3. Final attack ends after no more than 1 minute, 2 out or 1 goalkick.\n\nBring water!",
+    "location": "Sportek, Tel Aviv",
+    "latlng": {
+      "lat": 32.0983724,
+      "lng": 34.7854915
+    },
+    "createdAt": "28/05/21",
+    "createdBy": {
+      "_id": "u104",
+      "fullname": "Gil Tarablus",
+      "imgUrl": "/img/img2.jpg",
+      "rating": 5
+    },
+    "members": [
+      {
+        "_id": "u104",
+        "fullname": "Gil Tarablus",
+        "imgUrl": "/img/img2.jpg"
+      }
+    ],
+    "posts": [
+      {
+        "postId": "tJqxG",
+        "author": {
+          "_id": "u103",
+          "fullname": "Itay Rosental",
+          "imgUrl": "/img/img2.jpg"
+        },
+        "txt": "fdgdfgfdg",
+        "createdAt": 1622720975266
+      }
+    ],
+    "imgs": []
+  },
+
+
+  {
+    "_id": "ev109",
+    "title": "For Fun Beach Volleyball",
+    "type": "Volleyball",
+    "typeIcon": "🏐",
+    "gender": "female",
+    "eventDate": "2022-07-04",
+    "eventTime": "20:00",
+    "capacity": "16",
+    "price": "Free",
+    "desc": "We're playing 4X4. \n players level: begginers. \nA few rules:\n1. no scoring .\n2. switching players and mixing teams randomly .\n\n Bring water!",
+    "location": "Gordon Beach, Tel Aviv",
+    "latlng": {
+      "lat": 32.083029,
+      "lng": 34.767619
+    },
+    "createdAt": "28/05/21",
+    "createdBy": {
+      "_id": "u102",
+      "fullname": "Idan Levi",
+      "imgUrl": "/img/img2.jpg",
+      "rating": 4
+    },
+    "members": [
+      {
+        "_id": "u102",
+        "fullname": "Idan Levi",
+        "imgUrl": "/img/img2.jpg"
+      },
+      {
+        "_id": "u104",
+        "fullname": "Gil Tarablus",
+        "imgUrl": "/img/img2.jpg"
+      },
+      {
+        "_id": "u103",
+        "fullname": "Itay Rosental",
+        "imgUrl": "/img/img2.jpg"
+      },
+      {
+        "_id": "u101",
+        "fullname": "shuki Ben David",
+        "imgUrl": "/img/img1.jpg"
+      }
+    ],
+    "posts": [
+      {
+        "postId": "tJqxG",
+        "author": {
+          "_id": "u104",
+          "fullname": "Gil Tarablus",
+          "imgUrl": "/img/img2.jpg"
+        },
+        "txt": "its July dont forget to bring towels",
+        "createdAt": 1622720975266
+      }
+    ],
+    "imgs": []
+  },
+
+
+
+
+  {
+    "_id": "ev109",
+    "title": "Bikini&Thung Beach Volleyball",
+    "type": "Volleyball",
+    "typeIcon": "🏐",
+    "gender": "female",
+    "eventDate": "2022-07-05",
+    "eventTime": "20:00",
+    "capacity": "16",
+    "price": "Free",
+    "desc": "We're playing 4X4. \n players level: fit. \nA few rules:\n1. winning team keeps playing.\n2. bikini is MUST , 2 send photo to Gil instag on order to approve.\n\n Bring water!",
+    "location": "Gordon Beach, Tel Aviv",
+    "latlng": {
+      "lat": 32.0827,
+      "lng": 34.7674
+    },
+    "createdAt": "28/05/21",
+    "createdBy": {
+      "_id": "u102",
+      "fullname": "Idan Levi",
+      "imgUrl": "/img/img2.jpg",
+      "rating": 4
+    },
+    "members": [
+      {
+        "_id": "u102",
+        "fullname": "Idan Levi",
+        "imgUrl": "/img/img2.jpg"
+      },
+      {
+        "_id": "u104",
+        "fullname": "Gil Tarablus",
+        "imgUrl": "/img/img2.jpg"
+      },
+      {
+        "_id": "u103",
+        "fullname": "Itay Rosental",
+        "imgUrl": "/img/img2.jpg"
+      },
+      {
+        "_id": "u101",
+        "fullname": "shuki Ben David",
+        "imgUrl": "/img/img1.jpg"
+      }
+    ],
+    "posts": [
+      {
+        "postId": "tJqxG",
+        "author": {
+          "_id": "u104",
+          "fullname": "Gil Tarablus",
+          "imgUrl": "/img/img2.jpg"
+        },
+        "txt": "its July dont forget to bring towels",
+        "createdAt": 1622720975266
+      }
+    ],
+    "imgs": []
+  },
+
+
+  {
+    "_id": "ev110",
+    "title": "Hadar Yosef Running Group",
+    "type": "Running",
+    "typeIcon": "🏃‍♂️",
+    "gender": "all",
+    "eventDate": "2022-07-05",
+    "eventTime": "20:00",
+    "capacity": "20",
+    "price": "Free",
+    "desc": "running 2 km in 60 minutes, usaly group of 120 +-  \n  level: Medium . \nA few rules:\n1. winning team keeps playing.\n2. 10 Minutes game stop only on last 2 minutes, 2 minute extra time if game is tied.\n\nBring water!",
+    "location": "Hadar-Yosef arena, TLV",
+    "latlng": {
+      "lat": 32.104825,
+      "lng": 34.822379
+    },
+    "createdAt": "28/05/21",
+    "createdBy": {
+      "_id": "u102",
+      "fullname": "Idan Levi",
+      "imgUrl": "/img/img2.jpg",
+      "rating": 4
+    },
+    "members": [
+      {
+        "_id": "u102",
+        "fullname": "Idan Levi",
+        "imgUrl": "/img/img2.jpg"
+      },
+      {
+        "_id": "u104",
+        "fullname": "Gil Tarablus",
+        "imgUrl": "/img/img2.jpg"
+      },
+      {
+        "_id": "u103",
+        "fullname": "Itay Rosental",
+        "imgUrl": "/img/img2.jpg"
+      },
+      {
+        "_id": "u101",
+        "fullname": "shuki Ben David",
+        "imgUrl": "/img/img1.jpg"
+      }
+    ],
+    "posts": [
+      {
+        "postId": "tJqxG",
+        "author": {
+          "_id": "u104",
+          "fullname": "Gil Tarablus",
+          "imgUrl": "/img/img2.jpg"
+        },
+        "txt": "its July dont forget to bring towels",
+        "createdAt": 1622720975266
+      }
+    ],
+    "imgs": []
+  }
+]
