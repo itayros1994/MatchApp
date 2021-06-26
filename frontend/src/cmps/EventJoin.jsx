@@ -90,7 +90,7 @@ export class EventJoin extends React.Component {
             </div>
           </div>
           <div className="button-event-container">
-            <SocialShare></SocialShare>
+            <SocialShare event={event}></SocialShare>
             <button
               className="button-event"
               onClick={(ev) => {

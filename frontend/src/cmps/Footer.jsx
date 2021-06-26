@@ -25,7 +25,7 @@ export function Footer() {
                                     <p><span>MatchApp </span>is a one-stop-shop for all your social meetups and sports events, whether you're an event organiser, who wants to publish and promote events, or you're just looking to socialise with others on your free time.</p>
                                 </li>
                                 <li className="social-share">
-                                    <SocialShare />
+                                    <SocialShare/>
                                 </li>
                             </ul>
                     
