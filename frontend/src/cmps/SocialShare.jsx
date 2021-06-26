@@ -25,7 +25,7 @@ export class SocialShare extends Component {
     return (
       <div className="social-share flex column space-around align-items">
         {/* <h3 className="align-self-center">Invite your friends</h3> */}
-        <div className="flex space-around align-items">
+        <div className="social-share-icons flex space-around align-items">
           <div className="share-icon">
             <TwitterShareButton url={shareUrl} title={title}>
               <TwitterIcon size={50} round />

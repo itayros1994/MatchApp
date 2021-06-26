@@ -1,8 +1,6 @@
 import { connect } from 'react-redux';
 import React from 'react';
-import nemo from '../assets/imgs/nemoDemo.jpg';
 import { EventListEdit } from '../cmps/EventListEdit';
-import { EventPostList } from '../cmps/EventPostList';
 import { loadEvents, removeEvent } from '../store/actions/eventActions';
 
 class _MyEvents extends React.Component {
@@ -10,14 +8,11 @@ class _MyEvents extends React.Component {
     await this.props.loadEvents();
   }
   onRemoveEvent = (eventId) => {
-    console.log('hello');
     this.props.removeEvent(eventId);
   };
 
   render() {
-    console.log('saba');
     const { loggedInUser } = this.props;
-    // console.log(this.state.eventsToShow);
     if (!this.props.userEvents) return <h1>Loading...</h1>;
     return (
       <main className="user-main-container">

@@ -236,7 +236,7 @@
           height: 60%;
           z-index: 10;
           padding: 10px;
-          flex-wrap: wrap;
+          // flex-wrap: wrap;
           flex-direction: column;
           justify-content: space-between;
           border-radius: 5px;
@@ -259,18 +259,26 @@
               }
             }
           }
-
-          .button-event {
-            font-size: 20px;
-            width: 85%;
-            margin: 15px;
-            padding: 12px;
-            background-color: $clr1;
-            justify-self: flex-end;
-            transition: 0.3;
-            z-index: 100;
-            &:hover {
-              background-color: #2291ff;
+          .button-event-container {
+            margin: 0;
+            .social-share {
+              .social-share-icons {
+                display: flex;
+                justify-content: center;
+              }
+            }
+            .button-event {
+              font-size: 20px;
+              width: 85%;
+              margin: 15px;
+              padding: 12px;
+              background-color: $clr1;
+              justify-self: flex-end;
+              transition: 0.3;
+              z-index: 100;
+              &:hover {
+                background-color: #2291ff;
+              }
             }
           }
         }

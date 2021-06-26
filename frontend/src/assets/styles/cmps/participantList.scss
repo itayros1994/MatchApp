@@ -19,5 +19,11 @@
   }
   .button-event-container {
     margin: 0;
+    .social-share {
+      .social-share-icons {
+        display: flex;
+        justify-content: center;
+      }
+    }
   }
 }
